@@ -1,0 +1,12 @@
+Parcel-Test/node_modules/
+Parcel-Test/dist/
+Parcel-Test/.parcel-cache
+
+Rollup-Test/node_modules/
+Rollup-Test/dist/
+
+Vite-Test/node_modules/
+Vite-Test/dist/
+
+Webpack-Test/node_modules/
+Webpack-Test/dist/

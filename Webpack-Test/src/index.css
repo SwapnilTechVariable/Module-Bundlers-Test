@@ -1,0 +1,60 @@
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    color: rgb(129, 30, 243);
+    font-weight: 600;
+}
+
+pre span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    color: rgb(88, 57, 26);
+    font-weight: 600;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    border-left: 1px dotted gray;
+    /* overflow: hidden; */
+    padding-left: 0.8rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(88, 57, 26);
+}
+
+ul li {
+    width: max-content;
+    position: relative;
+}
+
+ul li::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0.8rem;
+    height: 100%;
+    border-bottom: 1px dotted gray;
+    transform: translate(-100%, -50%);
+}
+
+ul li:last-child::after {
+    position: absolute;
+    left: -14px;
+    top:54%;
+    content: "";
+    display: block;
+    width: 0.8rem;
+    height: 50%;
+    background-color: white;
+}
+
+details {
+    transition: height 0.5s ease-in-out;
+}
+
+details[open] {
+    height: auto;
+}
